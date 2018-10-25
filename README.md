@@ -9,3 +9,7 @@ $ sudo fc-cache -f -v
 
 
 https://blog.csdn.net/weifengdq/article/details/70228805
+
+无法输入中文: https://emacs-china.org/t/topic/1271/22
+$ LC_CTYPE=zh_CN.UTF-8 emacs --daemon
+$ emacsclient --create-frame --no-wait
