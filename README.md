@@ -16,4 +16,5 @@ https://emacs-china.org/t/topic/974
 - 另外，.spacemacs文件中  (set-language-environment "UTF-8")
 ## ubuntu安装QQ简单方法 
 https://github.com/askme765cs/Wine-QQ-TIM
-
+## Wine
+wine64命令代替了wine
