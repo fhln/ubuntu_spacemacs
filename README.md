@@ -18,3 +18,5 @@ https://emacs-china.org/t/topic/974
 https://github.com/askme765cs/Wine-QQ-TIM
 ## Wine
 wine64命令代替了wine
+## sudo启动菜单栏程序
+https://blog.csdn.net/bskfnvjtlyzmv867/article/details/79588596
