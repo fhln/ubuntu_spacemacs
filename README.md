@@ -9,9 +9,9 @@
 ## 字体问题
 https://github.com/adobe-fonts/source-code-pro/issues/17#issuecomment-8967116
 
-- $ sudo mkdir /usr/share/fonts/opentype
-- $ sudo git clone --depth 1 --branch release https://github.com/adobe-fonts/source-code-pro.git /usr/share/fonts/opentype/scp
-- $ sudo fc-cache -f -v
+-  sudo mkdir /usr/share/fonts/opentype
+-  sudo git clone --depth 1 --branch release https://github.com/adobe-fonts/source-code-pro.git /usr/share/fonts/opentype/scp
+-  sudo fc-cache -f -v
 
 ## git更新
 https://blog.csdn.net/weifengdq/article/details/70228805
@@ -27,3 +27,12 @@ https://github.com/askme765cs/Wine-QQ-TIM
 wine64命令代替了wine
 ## sudo启动菜单栏程序
 https://blog.csdn.net/bskfnvjtlyzmv867/article/details/79588596
+## 安装teamviewer
+参考https://websiteforstudents.com/installing-teamviewer-on-ubuntu-16-04-17-10-18-04/
+- cd /tmp && wget https://download.teamviewer.com/download/linux/signature/TeamViewer2017.asc
+- sudo apt-key add TeamViewer2017.asc
+- sudo sh -c 'echo "deb http://linux.teamviewer.com/deb stable main" >> /etc/apt/sources.list.d/teamviewer.list'
+- sudo sh -c 'echo "deb http://linux.teamviewer.com/deb preview main" >> /etc/apt/sources.list.d/teamviewer.list'
+- sudo apt update
+- sudo apt install teamviewer
+
