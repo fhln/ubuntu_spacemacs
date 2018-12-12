@@ -1,3 +1,10 @@
+# install emacs
+- download emacs-25.3 http://mirrors.ustc.edu.cn/gnu/emacs/ source code
+- compile and install 
+
+# install spacemacs
+- git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+
 # ubuntu_spacemacs for spacemacs config
 ## 字体问题
 https://github.com/adobe-fonts/source-code-pro/issues/17#issuecomment-8967116
